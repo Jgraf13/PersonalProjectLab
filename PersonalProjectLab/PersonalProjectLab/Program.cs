@@ -66,7 +66,7 @@ namespace PersonalProjectLab
                     //Calculate the cost of spraying with this method
                     CropSpraying groundprice = new CropSpraying();
 
-                    int avg = groundprice.CalculateGroundDustingPrice(CostofSpraying, NumberofAcres, TypeofPesticide);
+                    int avg = groundprice.CalculateGroundSprayingPrice(CostofSpraying, NumberofAcres, TypeofPesticide);
                     //Write the cost of spraying with this method
                     Console.WriteLine("The cost to ground spray your land is " + avg);
                 }

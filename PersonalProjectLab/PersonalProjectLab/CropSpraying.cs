@@ -16,7 +16,7 @@
             return price;
         }
 
-        public int CalculateGroundDustingPrice(int rental, int acres, int pesticides)
+        public int CalculateGroundSprayingPrice(int rental, int acres, int pesticides)
         {
             //Ground spraying average = rental * acres * peesticides
             int groundprice = 0;
