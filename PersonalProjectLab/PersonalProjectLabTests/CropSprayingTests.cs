@@ -28,7 +28,7 @@ namespace PersonalProjectLabTests
             CropSpraying spray = new CropSpraying();
 
             //act
-            int gspraying = spray.CalculateCropDustingPrice(8, 2000, 11);
+            int gspraying = spray.CalculateGroundSprayingPrice(8, 2000, 11);
 
             //asserting
             Assert.AreEqual(176000, gspraying);
